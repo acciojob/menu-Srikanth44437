@@ -1,6 +1,6 @@
 import React from "react";
 import './../styles/App.css';
-import Todo from './Todo';
+
 const App = () => {
     const [dish, setDish] = useState(Data);
     const filterDish = (category) => {
